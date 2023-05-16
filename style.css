@@ -98,7 +98,7 @@ min-height: 70vh;
   display: grid;
   font-family: myfont;
   place-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px,70vw ), 1fr));
   grid-gap: 1em;
 }
 .data {
