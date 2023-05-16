@@ -19,6 +19,7 @@ body {
 }
 canvas{
   position: absolute;
+  inset:0;
 }
 form {
   height: 40vh;
